@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('');
-$pageTitle = "";
+
 ?>
 
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title><?= $pageTitle ? $pageTitle:$this->uri->segment(1) ?></title>
+        <title><?= isset ($pageTitle) ? $pageTitle:$this->uri->segment(1) ?></title>
         <!--Favicon-->
         <link rel="shortcut icon"  href=""> <!--add the .ico file-->
 
