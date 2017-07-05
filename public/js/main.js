@@ -1,5 +1,8 @@
 'use strict';
 
+var appRoot = setAppRoot("myci", "myci");
+
+
 /*
  * Library Functions
  * setAppRoot
