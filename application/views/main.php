@@ -44,6 +44,6 @@ $pageTitle = "";
         <script src="<?= base_url()?>public/js/main.js"></script>
     </head>
     <body>
-        
+        <?= $pageContent?>
     </body>
 </html>
